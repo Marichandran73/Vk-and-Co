@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --color-primary-50: #fef7ee;
+  --color-primary-100: #fdedd6;
+  --color-primary-200: #f9d7ad;
+  --color-primary-300: #f4b978;
+  --color-primary-400: #ee9242;
+  --color-primary-500: #ea7420;
+  --color-primary-600: #db5a16;
+  --color-primary-700: #b54314;
+  --color-primary-800: #903618;
+  --color-primary-900: #742f17;
+  --color-primary-950: #3f150a;
+  --color-slate-850: #172033;
+  --color-slate-950: #0a0f1a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased text-slate-800 bg-slate-50;
+  font-family: 'Outfit', system-ui, sans-serif;
+}
+
+/* Smooth scroll offset for fixed header */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Lazy image placeholder */
+img[data-loading] {
+  @apply bg-slate-200 animate-pulse;
+}

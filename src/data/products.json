@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Construction Nail",
+      "image": "/images/Screw.jpg",
+      "description": "High strength steel nails used in construction and carpentry.",
+      "features": ["Rust resistant", "High durability", "Strong steel"]
+    },
+    {
+      "id": 2,
+      "name": "Concrete Wall Blocks",
+      "image": "/images/CongrateWalls.jpg",
+      "description": "Durable concrete blocks used for building strong walls.",
+      "features": ["Weather resistant", "Heavy load capacity", "Long lasting"]
+    },
+    {
+      "id": 3,
+      "name": "Hollow Blocks",
+      "image": "/images/hollowblocks.jpg",
+      "description": "Lightweight hollow blocks for modern construction.",
+      "features": ["Lightweight", "Strong structure", "Cost efficient"]
+    },
+    {
+      "id": 4,
+      "name": "Plastic Water Pipes",
+      "image": "/images/Plastics.jpg",
+      "description": "High quality pipes for water supply and plumbing systems.",
+      "features": ["Leak resistant", "Long lasting", "Flexible"]
+    }
+  ]
+}
